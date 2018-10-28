@@ -1,9 +1,9 @@
-let arr = [];
-
 module.exports = function recursion(a) {
     treeToArray(a, 0);
     return arr;
 }
+
+let arr = [];
 
 function treeToArray(a, level) {
     if (arr.length === level) {

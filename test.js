@@ -1,7 +1,7 @@
-const assert = require('assert');
-const sumOfOther = require('./sum-of-other.js');
-const make = require('./make.js');
-const recursion = require('./recursion.js');
+let assert = require('assert');
+let sumOfOther = require('./sum-of-other.js');
+let make = require('./make.js');
+let recursion = require('./recursion.js');
 
 describe('sum of other', () => {
     it('1', () => {
